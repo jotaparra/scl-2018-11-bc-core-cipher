@@ -1,15 +1,109 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root">
-      <h1>Hola mundo!</h1>
-    </div>
-    <script src="cipher.js"></script>
-    <script src="index.js"></script>
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Caesar Cipher</title>
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="prefix.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Muli|Text+Me+One" rel="stylesheet">
+</head>
+
+
+<body>
+
+
+  <div class="contenedor">
+    <!-- header -->
+    <header>
+      <div class="logo">
+        <img src="logo_ejemplo.png" width="80">
+        <a href="#">PASAPIOLA</a>
+      </div>
+    </header>
+
+    <!-- nav -->
+    <nav>
+      <div>
+        <a href="#mainDos">¿Qué es pasapiola?</a>
+        <a href="#mainTres">Instrucciones</a>
+        <a href="#">Otras técnicas</a>
+      </div>
+    </nav>
+
+    <!-- section -->
+
+    <section class="main">
+      <div id="intro">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut facilisis, felis eget tempus
+        hendrerit,
+        sem ex sagittis diam, sit amet commodo velit ipsum at sapien. In blandit ornare vestibulum. Curabitur efficitur
+        volutpat odio ut posuere. Suspendisse quam lectus, gravida at ligula ut, pulvinar elementum augue.
+      </div>
+      <article>
+        <p>
+          Ingresa tu mensaje a cifrar
+        </p>
+        <textarea rows="8" cols="50" placeholder="Mensaje" id="mensaje"></textarea>
+
+      </article>
+
+
+      <!-- sección con botones -->
+      <article>
+        <p>
+          N° de desplazamiento
+        </p>
+        <input type="number" id="numberOffset">
+        <br>
+        <br>
+        <input class="button" type="button" id="btn1" value="Cifrar"> <!-- cuál es la diferencia con  -->
+        <br>
+        <br>
+        <input class="button" type="button" id="btn2" value="Descifrar">
+        <input class="button" type="button" id="btn3" value="Limpiar">
+      </article>
+      <!-- caja con resultado -->
+
+      <article>
+        <p>
+          Resultado
+        </p>
+        <textarea disabled id="nuevoMensaje" rows="8" cols="50" maxlength="100" placeholder="Ruega que funcione"></textarea>
+      </article>
+
+    </section>
+
+
+    <section class="mainDos">
+      <article>
+        <div>
+          <h2>
+            ¿Qué es pasapiola?
+          </h2>
+          <p>
+            Pasapiola es una aplicación que te ayudará a encriptar y desencriptar mensajes para que sean secretos y
+            nadie que tu no quieras podrá entender estos mensajes e incluso lo puedes usar para hacer torpedos en tus
+            exámenes si no tuviste demasiado tiempo para estudiar porque estabas jugando algún videojuego .
+
+          </p>
+        </div>
+
+      </article>
+
+
+
+    </section>
+    <footer>
+
+    </footer>
+
+  </div>
+  <script src="cipher.js"></script>
+  <script src="index.js"></script>
+
+</body>
+
 </html>
