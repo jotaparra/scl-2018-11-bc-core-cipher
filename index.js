@@ -4,7 +4,7 @@ window.onload = () => {
   btncipher.addEventListener('click', () => {
   let str = document.getElementById('mensaje').value;
   let offset = document.getElementById('numberOffset').value;
-  let result = window.cipher.encode(offset, str);
+  let result = window.cipher.encode(str, offset);
   document.getElementById('nuevoMensaje').innerHTML = result;
   }); 
 
@@ -13,7 +13,7 @@ window.onload = () => {
   decipherBtn.addEventListener('click', () => {
   let str = document.getElementById('mensaje').value;
   let offset = document.getElementById('numberOffset').value;
-  let result = window.cipher.decode(offset, str);
+  let result = window.cipher.decode(str, offset);
   document.getElementById('nuevoMensaje').innerHTML = result;
   }); 
 
