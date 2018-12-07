@@ -9,7 +9,7 @@
   <title>Document</title>
   <link rel="stylesheet" href="style.css" />
   <script src="prefix.js"></script>
-  <link href="https://fonts.googleapis.com/css?family=Muli|Text+Me+One" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Arimo|Fjalla+One|Fredoka+One|Muli|PT+Sans" rel="stylesheet">
 </head>
 
 <body>
@@ -17,24 +17,22 @@
     <!-- header -->
     <header>
       <div class="logo">
-        <img src="logo_ejemplo.png" width="80">
-        <a href="#">PASAPIOLA</a>
+        <img src="img/logo_pasapiola.png">
       </div>
     </header>
     <!-- nav -->
     <nav>
       <div>
         <a href="#mainDos">¿Qué es pasapiola?</a>
-        <a href="#mainTres">Instrucciones</a>
-        <a href="#">Otras técnicas</a>
+        <a href="#mainTres">Instrucciones de uso</a>
       </div>
     </nav>
     <!-- section -->
     <section class="main">
-      <div id="intro">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut facilisis, felis eget tempus
-        hendrerit,
-        sem ex sagittis diam, sit amet commodo velit ipsum at sapien. In blandit ornare vestibulum. Curabitur efficitur
-        volutpat odio ut posuere. Suspendisse quam lectus, gravida at ligula ut, pulvinar elementum augue.
+      <div id="intro">
+        <h1>¿Aburrido de que tus compañeros lean tus mensajes en tu celular? ¿Quieres enviar mensajes
+          secretos con tu enamoradx? o simplemente no estudiaste y necesitas enviarte torpedos con tus compañeros <br>
+          <h1 style="color:#B4D235">¡esta aplicación es para ti!</h1>
       </div>
       <article>
         <p>
@@ -64,16 +62,60 @@
         <textarea disabled id="nuevoMensaje" rows="8" cols="50" maxlength="100" placeholder="Ruega que funcione"></textarea>
       </article>
     </section>
-    <section class="mainDos">
-      <article>
+    <section id="mainDos">
+      <article class="informacion">
         <div>
           <h2>
             ¿Qué es pasapiola?
+          </h2> <br>
+          <p>
+            Pasapiola es una aplicación que te ayudará a cifrar mensajes para que sean secretos y
+            solo la persona a quién se la envías lo podrá descifrar, y así evitarás que tus amigos puedan leer tus
+            mensajes privados.
+
+            Esta aplicación está basado en el sistema de cifrado por desplazamiento, más conocido como Cifrado César.</p>
+            <br>
+            Por ejemplo, si usamos un desplazamiento (offset) de 3 posiciones:
+            <div><ul>
+              <li>La letra A se cifra como D.</li>
+              <li>La palabra CASA se cifra como FDVD.</li>
+              <li>Alfabeto sin cifrar: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z</li>
+              <li>Alfabeto cifrado: D E F G H I J K L M N O P Q R S T U V W X Y Z A B C</li>
+            </ul>
+          </div>
+            <h3>
+        </div>
+      </article>
+    </section>
+    <section id="mainTres">
+      <article class="informacion">
+        <div>
+          <h2>
+            Instrucciones
           </h2>
           <p>
             Pasapiola es una aplicación que te ayudará a encriptar y desencriptar mensajes para que sean secretos y
             nadie que tu no quieras podrá entender estos mensajes e incluso lo puedes usar para hacer torpedos en tus
             exámenes si no tuviste demasiado tiempo para estudiar porque estabas jugando algún videojuego .
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed dolor pretium, commodo libero id,
+            faucibus elit. Praesent id luctus dui. Nullam finibus nunc in dui tempus facilisis. Curabitur ac bibendum
+            ligula, suscipit sagittis velit. Duis pretium euismod erat, id malesuada odio rutrum ut. Suspendisse
+            potenti. Nam a mi elit. Duis non lacus orci. Nulla faucibus elementum elementum.
+
+            Donec sodales nisl ut lorem commodo lobortis. Vestibulum at lobortis tortor. Pellentesque efficitur laoreet
+            mattis. Cras elementum sit amet nisi et ultricies. Donec neque dolor, efficitur id velit id, pharetra
+            accumsan neque. Morbi in faucibus felis. Nulla vel odio sed nisl porta cursus sollicitudin elementum nisl.
+            Suspendisse eleifend eros vel tortor accumsan semper. Aliquam ultrices diam lacus, non molestie felis
+            imperdiet vel. Phasellus porta eros ante, venenatis faucibus diam sagittis non. Nulla pharetra feugiat mi
+            vitae efficitur. Suspendisse nisl libero, feugiat nec pretium eu, viverra vitae ex. Etiam in purus vitae
+            dolor varius molestie. Curabitur porttitor elementum ipsum ut vulputate.
+
+            Duis nec aliquam felis. Nam sed dolor eleifend, bibendum mi sit amet, sollicitudin metus. Nulla tellus
+            libero, mattis ut nulla nec, faucibus viverra ante. Quisque mollis ligula eu auctor venenatis. Maecenas
+            ultrices, erat eget egestas gravida, mi orci ultrices elit, sed viverra ante elit in arcu. Suspendisse id
+            mauris diam. Sed elementum eget eros ut porta. Cras luctus varius gravida. Pellentesque faucibus vulputate
+            fringilla. Vivamus ac diam venenatis, rhoncus orci vitae, facilisis eros. Nullam in interdum tortor. Nunc
+            eu pellentesque turpis.
           </p>
         </div>
       </article>
