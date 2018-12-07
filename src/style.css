@@ -90,7 +90,7 @@ h2 {
   flex-direction: row;  /*nos pone los elementos en linea*/
   flex-wrap: wrap;  /*hace que si un elemento no cabe, se ponga debajo del otro*/
   /* Atajo sería--> flex-flow:row wrap; */
-  flex: 1 1 80%; /* 1(shrink - proporción cuanto se va a estrechar). 2(shrink - proporción cuanto se va a estrechar) */
+   /* 1(shrink - proporción cuanto se va a estrechar). 2(shrink - proporción cuanto se va a estrechar) */
 }
 
 .main article {
@@ -128,6 +128,8 @@ h2 {
   border-radius: 20px;
   border: 8px dashed; 
   font-size: 20px;
+  display: flex;
+  flex-direction: column;
 }
 
 .informacion div {
@@ -160,6 +162,10 @@ h2 {
  align-items: flex-end;
 
 }
+#mainDos {
+  flex-direction: column;
+  
+}
 
 footer {
   background-color: #4D4E4F;
@@ -173,6 +179,8 @@ footer {
 @media screen and (max-width: 800px) {
   .contenedor {
     flex-direction: column;
-    flex-wrap: wrap
+    flex-wrap: wrap;
   }
+
+  
 }
