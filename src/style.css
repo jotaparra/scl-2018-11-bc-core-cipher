@@ -17,7 +17,7 @@
 }
 
 body {
-    background:url(school_back.jpg) no-repeat fixed center center;
+    background:url(img/school_back.jpg) no-repeat fixed center center;
     background-size: cover;
     font-family: 'Muli', sans-serif;
 }
@@ -40,7 +40,7 @@ nav a {
   color:#ffffff;
   text-decoration: none;
   padding: 10px;
-  
+  font-size: 20px;
 }
 
   nav a:hover {
@@ -48,36 +48,24 @@ nav a {
     transition: all 300ms ease;
   }
 
-
 header {
   background-color:#ffffff;
   width: 100%;
-  padding: 20px;
+  padding: 0px;
   display: flex;
   justify-content: center;
 }
 
-header .logo {
-  color: #ffffff;
-  font-size: 35px;
-}
-
-header .logo img {    /*no siempre es necesario utilizar flex-box, aquí por ejemplo para centrar la imagen del logo y el texto, a ambos le pusimos 50px (width, line-height)  */
-  width: 50px;
-  vertical-align: top;
-  justify-content:center;
-}
-
-header .logo a {
-  color: #000000;
-  font-family: 'Text Me One', sans-serif;
-  text-decoration: none;
-  line-height: 50px;
-  margin-left: 10px;
-}
-
 #intro {
   margin: 20px;
+}
+
+h1 {
+  font-family:'Gothic A1', sans-serif;
+  font-size: 28px;
+  text-align: center;
+  color: #ffffff;
+  letter-spacing: -1px;
 }
 
 .main {
@@ -117,6 +105,18 @@ header .logo a {
   background-color:#B4D235;
 }
 
+.informacion {
+  background-color:#B4D235;
+  margin: 5%;
+  padding: 30px;
+  border-radius: 20px;
+  border: 10px dashed; 
+}
+
+.informacion div div {
+  padding: 20px;
+}
+
 footer {
   background-color: #4D4E4F;
   width: 100%;
@@ -126,7 +126,7 @@ footer {
 
 
 /* Responsive */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .contenedor {
     flex-direction: column;
   }

@@ -25,6 +25,7 @@ window.cipher = {
   decode: (str, offset) => {
     let result = '';
     offset = parseInt(offset);
+
     for (let i = 0; i < str.length; i++) {
       let strToAscii = str.charCodeAt(i);
       if (strToAscii >= 65 && strToAscii <= 90) {
