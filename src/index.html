@@ -16,7 +16,7 @@
   <div class="contenedor">
     <!-- header -->
     <header>
-      <div class="logo">
+      <div class="logo" id="mainuno">
         <img src="img/logo_pasapiola.png">
       </div>
     </header>
@@ -30,93 +30,92 @@
     <!-- section -->
     <section class="main">
       <div id="intro">
-        <h1>¿Aburrido de que tus compañeros lean tus mensajes en tu celular? ¿Quieres enviar mensajes
+        <h2>¿Aburrido de que tus compañeros lean tus mensajes en tu celular? ¿Quieres enviar mensajes
           secretos con tu enamoradx? o simplemente no estudiaste y necesitas enviarte torpedos con tus compañeros <br>
-          <h1 style="color:#B4D235">¡esta aplicación es para ti!</h1>
+          <h2 style="color:#B4D235">¡esta aplicación es para ti!</h2>
+        </h2>
       </div>
       <article>
-        <p>
+        <p class="bold">
           Ingresa tu mensaje a cifrar
         </p>
-        <textarea rows="8" cols="50" placeholder="Mensaje" id="mensaje"></textarea>
+        <textarea rows="10" cols="60" placeholder="Mensaje" id="mensaje"></textarea>
       </article>
       <!-- sección con botones -->
       <article>
-        <p>
-          N° de desplazamiento
+        <p class="bold">
+          n° de desplazamiento
         </p>
         <input type="number" placeholder="ingresa un número" id="numberOffset">
         <br>
         <br>
-        <input class="button" type="button" id="btn1" value="Cifrar"> <!-- cuál es la diferencia con  -->
-        <br>
-        <br>
-        <input class="button" type="button" id="btn2" value="Descifrar">
-        <input class="button" type="button" id="btn3" value="Limpiar">
+        <div class="center">
+          <input class="button" type="button" id="btn1" value="Cifrar"> <!-- cuál es la diferencia con  -->
+          <br>
+          <br>
+          <input class="button" type="button" id="btn2" value="Descifrar">
+          <br>
+          <br>
+          <input class="button" type="button" id="btn3" value="Limpiar">
+        </div>
       </article>
       <!-- caja con resultado -->
       <article>
-        <p>
+        <p class="bold">
           Resultado
         </p>
-        <textarea disabled id="nuevoMensaje" rows="8" cols="50" maxlength="100" placeholder="Ruega que funcione"></textarea>
+        <textarea disabled id="nuevoMensaje" rows="10" cols="70" maxlength="100" placeholder="Mensaje secreto"></textarea>
       </article>
     </section>
     <section id="mainDos">
       <article class="informacion">
         <div>
-          <h2>
+          <h1>
             ¿Qué es pasapiola?
-          </h2> <br>
+          </h1> <br>
           <p>
             Pasapiola es una aplicación que te ayudará a cifrar mensajes para que sean secretos y
             solo la persona a quién se la envías lo podrá descifrar, y así evitarás que tus amigos puedan leer tus
             mensajes privados.
 
             Esta aplicación está basado en el sistema de cifrado por desplazamiento, más conocido como Cifrado César.</p>
-            <br>
-            Por ejemplo, si usamos un desplazamiento (offset) de 3 posiciones:
-            <div><ul>
+          <br>
+          Por ejemplo, si usamos un desplazamiento (offset) de 3 posiciones:
+          <div>
+            <ul>
               <li>La letra A se cifra como D.</li>
               <li>La palabra CASA se cifra como FDVD.</li>
               <li>Alfabeto sin cifrar: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z</li>
               <li>Alfabeto cifrado: D E F G H I J K L M N O P Q R S T U V W X Y Z A B C</li>
             </ul>
           </div>
-            <h3>
+          <a href="#mainuno">Volver al inicio</a>
+          <a href="https://es.wikipedia.org/wiki/Cifrado_C%C3%A9sar">Más información</a>
         </div>
       </article>
     </section>
     <section id="mainTres">
       <article class="informacion">
         <div>
-          <h2>
-            Instrucciones
-          </h2>
+          <h1>
+            Instrucciones de uso
+          </h1> <br>
           <p>
-            Pasapiola es una aplicación que te ayudará a encriptar y desencriptar mensajes para que sean secretos y
-            nadie que tu no quieras podrá entender estos mensajes e incluso lo puedes usar para hacer torpedos en tus
-            exámenes si no tuviste demasiado tiempo para estudiar porque estabas jugando algún videojuego .
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed dolor pretium, commodo libero id,
-            faucibus elit. Praesent id luctus dui. Nullam finibus nunc in dui tempus facilisis. Curabitur ac bibendum
-            ligula, suscipit sagittis velit. Duis pretium euismod erat, id malesuada odio rutrum ut. Suspendisse
-            potenti. Nam a mi elit. Duis non lacus orci. Nulla faucibus elementum elementum.
+            Comenzar a cifrar es fácil, solo sigue estas instrucciones</p>
 
-            Donec sodales nisl ut lorem commodo lobortis. Vestibulum at lobortis tortor. Pellentesque efficitur laoreet
-            mattis. Cras elementum sit amet nisi et ultricies. Donec neque dolor, efficitur id velit id, pharetra
-            accumsan neque. Morbi in faucibus felis. Nulla vel odio sed nisl porta cursus sollicitudin elementum nisl.
-            Suspendisse eleifend eros vel tortor accumsan semper. Aliquam ultrices diam lacus, non molestie felis
-            imperdiet vel. Phasellus porta eros ante, venenatis faucibus diam sagittis non. Nulla pharetra feugiat mi
-            vitae efficitur. Suspendisse nisl libero, feugiat nec pretium eu, viverra vitae ex. Etiam in purus vitae
-            dolor varius molestie. Curabitur porttitor elementum ipsum ut vulputate.
-
-            Duis nec aliquam felis. Nam sed dolor eleifend, bibendum mi sit amet, sollicitudin metus. Nulla tellus
-            libero, mattis ut nulla nec, faucibus viverra ante. Quisque mollis ligula eu auctor venenatis. Maecenas
-            ultrices, erat eget egestas gravida, mi orci ultrices elit, sed viverra ante elit in arcu. Suspendisse id
-            mauris diam. Sed elementum eget eros ut porta. Cras luctus varius gravida. Pellentesque faucibus vulputate
-            fringilla. Vivamus ac diam venenatis, rhoncus orci vitae, facilisis eros. Nullam in interdum tortor. Nunc
-            eu pellentesque turpis.
-          </p>
+          <div>
+            <ol>
+              <li>En el área de texto de la izquierda ingresa el mensaje que deseas cifrar, puede contener números y
+                letras, a excepción de la letra ñ, signos de puntuación y exclamación que no cifrará</li>
+              <li>En el centro de la página hay un pequeño recuadro donde debes ingresar un número, el cuál será el
+                desplazamiento que tendrán las letras de tu mensaje</li>
+              <li>Luego debes seleccionar el botón cifrar o descifrar e inmediatamente aparecerá el mensaje cifrado o
+                descifrado en el cuadro de texto de la derecha.</li>
+              <li>Puedes copiar este mensaje secreto y enviarlo en un mensaje de texto por ejemplo, pero recuerda para
+                que el receptor descifre el mensaje debes indicarle el número de desplazamiento que has usado</li>
+            </ol>
+          </div>
+          <a href="#mainuno">Volver al inicio</a>
         </div>
       </article>
     </section>
