@@ -41,6 +41,7 @@ nav a {
   text-decoration: none;
   padding: 10px;
   font-size: 20px;
+  text-align: center;
 }
 
   nav a:hover {
@@ -57,16 +58,27 @@ header {
 }
 
 #intro {
-  margin: 20px;
+  margin: 15px;
 }
 
 h1 {
   font-family:'Gothic A1', sans-serif;
-  font-size: 28px;
+  font-size: 32px;
+
+}
+h2 {
+  font-family:'Gothic A1', sans-serif;
+  font-size: 24px;
   text-align: center;
   color: #ffffff;
   letter-spacing: -1px;
 }
+
+.bold {
+ color: rgb(44, 44, 44);
+ font-weight: 900;
+}
+
 
 .main {
   width: 100%;
@@ -105,16 +117,48 @@ h1 {
   background-color:#B4D235;
 }
 
+.center {
+  text-align: center;
+}
+
 .informacion {
   background-color:#B4D235;
-  margin: 5%;
-  padding: 30px;
+  margin: 6%;
+  padding: 26px;
   border-radius: 20px;
-  border: 10px dashed; 
+  border: 8px dashed; 
+  font-size: 20px;
+}
+
+.informacion div {
+  padding: 20px;
 }
 
 .informacion div div {
-  padding: 20px;
+  padding: 30px;
+  font-size: 20px;
+  line-height: 1.6em;
+}
+
+.informacion a {
+  background:#4D4E4F;
+  width: 100%;
+  color:#ffffff;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+.informacion a:hover {
+  background-color: black;
+}
+
+.izquierda {
+ margin-top: 20px;
+ align-items: flex-end;
+
 }
 
 footer {
@@ -129,5 +173,6 @@ footer {
 @media screen and (max-width: 800px) {
   .contenedor {
     flex-direction: column;
+    flex-wrap: wrap
   }
 }
