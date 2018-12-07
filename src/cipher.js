@@ -37,7 +37,12 @@ window.cipher = {
         }
       }
       else if (strToAscii >= 97 && strToAscii <= 122) {
-        result += String.fromCharCode((strToAscii - 97 - offset) % 26 + 97);
+        if (strToAscii - 97 - offset < 0) {
+          result += String.fromCharCode((strToAscii + 234 - 97 - offset) % 26 + 97);
+        }
+        else {
+          result += String.fromCharCode((strToAscii - 97 - offset) % 26 + 97);
+        }
       }
       else if (strToAscii >= 48 && strToAscii <= 57) {
         result += String.fromCharCode((strToAscii - 48 - offset) % 10 + 48);
