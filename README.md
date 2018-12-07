@@ -1,20 +1,20 @@
 ﻿# Pasapiola  🚀
 
-_
-> Pasapiola es una aplicación para codificar y decodificar mensajes basado en el sistema de cifrado por desplazamiento, más conocido como Cifrado César.   
+
+Pasapiola es una aplicación para codificar y decodificar mensajes basado en el sistema de cifrado por desplazamiento, más conocido como Cifrado César.   
 
 
 La interfaz es muy sencilla y amigable y te permitirá cifrar mensajes   que nadie podrá descifrar, solo la persona a quién se la envías, y así evitarás que algunos curiosos puedan leer tus mensajes privados.
 
 
 
-![](../header.png)
+![](screeshot_index.png)
 
 
 
 ## Cómo usar  🔧
 
-_
+
 Pasapiola es solo una versión de prueba, por lo que tendrás que descargarlo en tu PC. 
 Es una aplicación muy fácil de usar, en el área de texto que se encuentra a la izquierda debes ingresar el mensaje que deseas cifrar, en el centro de la página hay un pequeño recuadro donde debes ingresar un número, el cuál será el desplazamiento que tendrán las letras de tu mensaje, puedes ingresar letras y números a excepción de; signos de exclamación y puntuación y la letra ñ que no serán cifradas y quedarán de la misma forma. Luego debes seleccionar el botón cifrar o descifrar e inmediatamente aparecerá el mensaje cifrado o descifrado en el cuadro de texto de la derecha. En la parte superior de la página también encontrarás enlaces que te llevarán a información útil dentro de la página, como información sobre la aplicación, el sistema de cifrado y las instrucciones de uso. 
 
@@ -29,4 +29,4 @@ En principio el objetivo principal de esta aplicación era el de cifrar mensajes
 Entonces se decidió volver a definir el objetivo principal de la aplicación, que ahora es que los usuarios de la app puedan enviar mensajes secretos sin que sean comprendidos por sus compañeros en el contexto escolar y no vean vulnerada su privacidad.
 
 
-#### Enlace a planificación en TRELLO [trello](https://trello.com/b/9cQViGGt/proyecto-1-laboratoria-cifrado-c%C3%A9sar)
+#### Enlace a planificación en [TRELLO](https://trello.com/b/9cQViGGt/proyecto-1-laboratoria-cifrado-c%C3%A9sar)
